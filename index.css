@@ -8,13 +8,30 @@ p{
     color:blue;
 }
 body{
-    background-color: grey;
+    background-color: green;
 }
 h1{
     color:red;
 }
 .child{
-    float:left;
-    width:50%;
+    float:centre;
+    width:80%;
 
+}
+.pass{
+    float:centre;
+    width:50%;
+}
+head{
+    background-color: rgb(0,255,0);
+}
+input:focus:invalid{
+    border: 2 px solid red;
+}
+.pass1{
+    float:centre;
+    width: 60%;
+}
+.main{
+    background-color: green;
 }
