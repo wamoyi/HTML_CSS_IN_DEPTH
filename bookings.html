@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta property="og:title" content="BORROW BOOK">
+    <meta property="og:type" content="webpage">
+    <meta property="og:url" content="https://proseand parchment.com">
+    <meta property="og:image" content="logo.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BORROW A BOOK</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="parent">
+        <img src="logo.jpg" class="child"/>
+        </div>
+    </header>
+    <main>
+        <h1>BORROW BOOK</h1>
+        <div>
+            <label for="username">Username</label><br>
+            <input type="text" id="username" name="username" required minlength="2">
+        </div>
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password" required minlength="5" maxlength="12">
+        </div>
+        <div>
+            <label for="duration">Borrowing Duration</label><br>
+            <fieldset id="duration">
+                <label for="duration">0-1 WEEK</label><br>
+                <input type="radio" id="1" name="duration" value="0-1 WEEK">
+            </fieldset>
+            <fieldset id="duration">
+                <label for="duration">2-4 WEEKS</label><br>
+                <input type="radio" id="4" name="duration" value="2-4 WEEKS" checked>
+            </fieldset>
+            <fieldset id="duration">
+                <label for="duration">5-6 WEEKS</label><br>
+                <input type="radio" id="6" name="duration" value="5-6 WEEKS">
+            </fieldset>
+        </div>
+        <button type="submit">Borrow Book</button>
+    </main>
+    <footer>
+        <div class="alert alert-info" role="alert">Failure to return the book within the stipulated period will incur a daily cost of Kshs.100</div>
+        Copyright:Prose and Parchment
+    </footer>
+    
+</body>
+</html>
