@@ -36,6 +36,24 @@ input:focus:invalid{
     background-color: green;
 }
 .container{
-    background-color: green;
-    background-color: green;
+    background-color: #2b2d42;
+    background-image: none;
+}
+.flex-container{
+    display: flex;
+    background-color:black;
+    justify-content: stretch;
+    flex-wrap: wrap;
+}
+.flex-container li{
+    list-style-type: none;
+}
+.flex-container a{
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    color:red;
+    background-color:black;
+    
+
 }
