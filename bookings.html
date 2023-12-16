@@ -19,19 +19,19 @@
     <main>
         <h1>BORROW BOOK</h1>
         <div>
-            <label for="username">Username</label><br>
+            <label for="username">Username:</label><br>
             <input type="text" id="username" name="username" required minlength="2">
         </div>
         <div>
-            <label for="email">Email</label><br>
+            <label for="email">Email:</label><br>
             <input type="email" id="email" name="email" required>
         </div>
         <div>
-            <label for="password">Password</label><br>
+            <label for="password">Password:</label><br>
             <input type="password" id="password" name="password" required minlength="5" maxlength="12">
         </div>
         <div>
-            <label for="duration">Borrowing Duration</label><br>
+            <label for="duration">Borrowing Duration:</label><br>
             <fieldset id="duration">
                 <label for="duration">0-1 WEEK</label><br>
                 <input type="radio" id="1" name="duration" value="0-1 WEEK">
@@ -44,6 +44,42 @@
                 <label for="duration">5-6 WEEKS</label><br>
                 <input type="radio" id="6" name="duration" value="5-6 WEEKS">
             </fieldset>
+        </div>
+        <div>
+            <label for="borrow">Available Books:</label>
+            <fieldset id="borrow">
+                <label for="borrow">THE ALCHEMIST ~Paulo Coelho</label></br>
+                <input type="checkbox" id="borrow" name="borrow"></br>
+            </fieldset>
+            <fieldset id="borrow">
+                <label for="borrow">PARVA ~S.L. Bhyrappe</label></br>
+                <input type="checkbox" id="borrow" name="borrow"></br>
+
+            </fieldset>
+            <fieldset id="borrow">
+                <label for="borrow">THE 48 LAWS OF POWER ~Robert Greene</label></br>
+                <input type="checkbox" id="borrow" name="borrow"></br>
+
+            </fieldset>
+            <fieldset id="borrow">
+                <label for="borrow">TUESDAYS WITH MORRIE ~Mitch Album</label></br>
+                <input type="checkbox" id="borrow" name="borrow"></br>
+            </fieldset>
+            <fieldset id="borrow">
+                <label for="borrow">OSUOFIA IN LONDON ~Osuofia</label></br>
+                <input type="checkbox" id="borrow" name="borrow"></br>
+            </fieldset>
+            <fieldset id="borrow">
+                <label for="borrow">A LITTLE LIFE ~Hanya Yanagihara</label></br>
+                <input type="checkbox" id="borrow" name="borrow"></br>
+            </fieldset>
+            <fieldset id="borrow">
+                <label for="borrow">THE USURPER'S DREAM ~Yeayi Kobina</label></br>
+                <input type="checkbox" id="borrow" name="borrow"></br>
+            </fieldset>
+        </div>
+        <div>
+            <span class="alert alert-info" role="alert">BORROWING OF MORE THAN TWO BOOKS WILL BE DECLINED!!</span>
         </div>
         <button type="submit">Borrow Book</button>
     </main>

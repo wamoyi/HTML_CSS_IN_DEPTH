@@ -16,7 +16,12 @@ h1{
 .child{
     float:centre;
     width:80%;
-
+}
+.nav{
+    background-color: solid green;
+}
+.sign{
+    background-color: solid green;
 }
 .pass{
     float:centre;
@@ -36,7 +41,7 @@ input:focus:invalid{
     background-color: green;
 }
 .container{
-    background-color: #2b2d42;
+    background-color: white;
     background-image: none;
 }
 .flex-container{
@@ -56,4 +61,21 @@ input:focus:invalid{
     background-color:black;
     
 
+}
+.flex{
+    background-color: firebrick;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.flex li{
+    list-style-type: none;
+}
+.flex a{
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    color:black;
+    background-color:firebrick;
 }
